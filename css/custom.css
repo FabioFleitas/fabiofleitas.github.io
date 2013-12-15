@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.img-prof {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.icons {
+  margin: 20px 0;
+  text-align: center;
+}
+.icons i {
+  margin: auto 10px;
+}
+
+.project {
+  margin: 10px auto;
+  min-height: 200px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Hide project-photo when on phones */
+@media (max-width: 768px) {
+  .project-photo {
+    display: none;
+  }
+}
+
+.project-photo {
+  float: right;
+  margin-left: 20px;
+}
+
+.info {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#tabs {
+  margin-top: 20px;
+}
+
+blockquote {
+  border-left: none;
+}
+
+.fa-quote-left.pull-left {
+  margin: 0 20px 40px 0 !important;
+}

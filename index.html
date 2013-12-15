@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" media="screen" />
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
+
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
 
@@ -20,72 +23,6 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-
-
-    <style>
-      body {
-        font-family: 'Open Sans', sans-serif;
-      }
-
-      .img-prof {
-        width: 200px;
-        display: block;
-        margin: 20px auto;
-      }
-
-      /*.img-prof {
-        width: 200px;
-        padding: 4px;
-        border: 2px solid #000;
-        display: block;
-        margin: 20 auto;
-        -webkit-box-shadow: 0 0 5px 2px #4D4D4D;
-        -moz-box-shadow: 0 0 5px 2px #4D4D4D;
-        box-shadow: 2px 1px #4D4D4D;
-      }*/
-
-      h1, h2 {
-        font-family: 'Open Sans', sans-serif;
-      }
-
-      .icons {
-        margin: 20px 0;
-        text-align: center;
-      }
-      .icons i {
-        /*text-align: center;*/
-        margin: auto 10px;
-      }
-
-      .project {
-        margin: 10px auto;
-        min-height: 200px;
-        border-bottom: 1px solid #dddddd;
-      }
-
-      /* Hide project-photo when on phones */
-      @media (max-width: 768px) {
-        .project-photo {
-          display: none;
-        }
-      }
-
-      .project-photo {
-        float: right;
-        margin-left: 20px;
-      }
-
-      .info {
-        text-align: center;
-        max-width: 300px;
-        margin: 0 auto;
-      }
-
-      #tabs {
-        margin-top: 20px;
-      }
-    </style>
   </head>
 
   <body>
@@ -130,54 +67,64 @@
               <div class="project">
                 <a href="http://www.penncoursenotify.com/"><img class="project-photo img-thumbnail" src="images/penncoursenotify-screenshot.png" /></a>
                 <h2>PennCourseNotify</h2>
-                <p><strong>Website Link:</strong> <a href="http://www.penncoursenotify.com/">http://www.penncoursenotify.com/</a></p>
+                <p><strong>Website Link:</strong> <a href="http://www.penncoursenotify.com/">www.penncoursenotify.com</a></p>
                 <p><strong>Description:</strong> PennCourseNotify allows students at the University of Pennsylvania to be notified whenever a course has an opening via email. I used Python as the backend on Google App Engine to develop the site. It was featured on the front page of the Daily Pennsylvanian Newspaper and Website: <a href="http://www.thedp.com/r/375feaf5">http://www.thedp.com/r/375feaf5</a>
                 <br/>
-                Within 3 weeks, over 550 students used the service.</p>
+                Within 3 weeks, over 550 students have used the service.</p>
               </div>
 
               <div class="project">
-                <a href="http://fellows.pennapps.com/"><img class="project-photo img-thumbnail" src="images/fellows-screenshot-2.png" /></a>
+                <a href="http://fellows.pennapps.com/"><img class="project-photo img-thumbnail" src="images/fellows-screenshot.png" /></a>
                 <h2>PennApps Fellows Website</h2>
-                <p><strong>Github Link:</strong> <a href="https://github.com/FabioFleitas/PennAppsFellowsPage">https://github.com/FabioFleitas/PennAppsFellowsPage</a></p>
-                <p><strong>Website Link:</strong> <a href="http://fellows.pennapps.com/">http://fellows.pennapps.com/</a></p>
-                <p><strong>Description:</strong></p>
+                <p><strong>Website Link:</strong> <a href="http://fellows.pennapps.com/">fellows.pennapps.com</a></p>
+                <p><strong>Github Link:</strong> <a href="https://github.com/FabioFleitas/PennAppsFellowsPage">github.com/FabioFleitas/PennAppsFellowsPage</a></p>
+                <p><strong>Description:</strong> Developed the Fellows website, co-founded and currently one of the directors of the program. The PennApps Fellows program is a 10-week summer internship program that pairs talented students from across the nation with the best Philly-area tech startups, cultivating a community of students who are actively involved in the local startup scene.</p>
               </div>
 
               <div class="project">
                 <h2>PennGrub</h2>
-                <p><strong>Github Link:</strong></p>
-                <p><strong>Description:</strong></p>
+                <p><strong>Github Link:</strong> <a href="https://github.com/shynp/penngrub">github.com/shynp/penngrub</a></p>
+                <p><strong>Description:</strong> Built during PennApps Fall 2013. Coded in Python and for use with Google App Engine. PennGrub scraped data from the Penn dining halls and allocated them all in one mobile-friendly site. We also implemented a voting system that allowed student to vote on items they liked/disliked. It would then show the results from the previous time the item was featured in that dining hall.</p>
+                <p>I developed and programmed most of the backend for our app including the scraping algorithm, the database structure, and the voting system.</p>
               </div>
             </div>
-          <!-- End Projects Tab -->
+            <!-- End Projects Tab -->
 
-          <!-- About Tab -->
-          <div class="tab-pane fade" id="about">
-            <h2>About Me</h2>
-            <p>I am a student at the University of Pennsylvania class of 2016. I am pursuing a BSE in the School of Engineering and Applied Science with a major in Computer & Information Science and a minor in Engineering Entrepreneurship.
+            <!-- About Tab -->
+            <div class="tab-pane fade" id="about">
+              <h2>Developer // Entrepreneur</h2>
+              <blockquote>
+                <i class="fa fa-quote-left fa-2x pull-left"></i>
+                <p>We’re here to put a dent in the universe. Otherwise why else even be here?
+                <small><cite>Steve Jobs</cite></small></p>
+              </blockquote>
+
+              <p>I am a student at the University of Pennsylvania class of 2016 pursuing a BSE in the School of Engineering and Applied Science with a major in Computer & Information Science and a minor in Engineering Entrepreneurship. I was born in Santiago de Cuba, Cuba, but have lived most of my life in Albuquerque, New Mexico.</p>
+              <p>I co-founded <a href="http://fellows.pennapps.com/">PennApps Fellows</a> where we connect students from across the nation to startups in Philly for summer internships.</p>
+              <p>I love startups and want to build my own during college. We have this one life, this one chance to do something amazing. I want to work with brilliant people to build something that will change our lives for the better and make an impact in the world.</p>
+            </div>
+              <!-- End About Tab -->
+
           </div>
 
-          <!-- End About Tab -->
-
-        </div>
-
-        <script>
-        $(document).ready(function ($) {
-          $('#tabs').tab();
-        });
-        </script>
+          <script>
+            // Script for nav-tabs
+            $(document).ready(function ($) {
+              $('#tabs').tab();
+            });
+          </script>
 
           <!-- End Tab Panes -->
 
         </div>
         <!-- End Main Area -->
 
-      </div>
+      </div>      
     </div>
 
-        <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <!-- jQuery & Bootstrap min.js files -->
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  </body>
 
+  </body>
 </html>
