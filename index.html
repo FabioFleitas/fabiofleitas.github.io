@@ -94,6 +94,20 @@
         text-decoration: none;
       }
 
+      nav ul {
+        white-space: nowrap;
+        overflow-x: scroll; 
+        -webkit-overflow-scrolling: touch;
+      }
+
+      #tabs {
+        padding-left: 0;
+      }
+
+      #tabs li {
+        float: none;
+      }
+
     </style>
   </head>
 
@@ -114,7 +128,8 @@
 
     <nav>
       <ul id="tabs" data-tabs="tabs">
-        <li class="active"><a href="#projects" data-toggle="tab">Projects</a></li>
+        <li class="active"><a href="#experience" data-toggle="tab">Experience</a></li>
+        <li><a href="#projects" data-toggle="tab">Projects</a></li>
         <li><a href="#about" data-toggle="tab">About Me</a></li>
       </ul>
     </nav>
@@ -124,34 +139,70 @@
       <!-- Tab Panes -->
       <div class="tab-content">
 
-        <!-- Projects Tab -->
-        <div class="tab-pane fade in active" id="projects">
-          <div class="project">
-            <a href="http://www.penncoursenotify.com/"><img class="project-photo img-thumbnail" src="images/screenshots/penncoursenotify-screenshot.png" /></a>
+        <!-- Experience Tab -->
+        <div class="tab-pane fade in active" id="experience">
+          <div class="item">
+            <a href="http://www.penncoursenotify.com/"><img class="item-photo img-thumbnail" src="images/screenshots/penncoursenotify-screenshot.png" /></a>
             <h2>PennCourseNotify</h2>
             <p><strong>Website Link:</strong> <a href="http://www.penncoursenotify.com/">www.penncoursenotify.com</a></p>
             <p><strong>Description:</strong> PennCourseNotify allows students at the University of Pennsylvania to be notified whenever a course has an opening via email. I used Python as the backend on Google App Engine to develop the site. It was featured on the front page of the Daily Pennsylvanian Newspaper and Website: <a href="http://www.thedp.com/r/375feaf5">http://www.thedp.com/r/375feaf5</a></p>
             <p><strong>Over 1,000 students are actively using the service.</strong></p>
           </div>
 
-          <div class="project">
-            <a href="https://chrome.google.com/webstore/detail/penncoursenotify-extensio/fnfnjichadfpaneolghomamdbjbhnenn"><img class="project-photo img-thumbnail" src="images/screenshots/pcn-extension-screenshot.png" /></a>
+          <div class="item">
+            <a href="https://chrome.google.com/webstore/detail/penncoursenotify-extensio/fnfnjichadfpaneolghomamdbjbhnenn"><img class="item-photo img-thumbnail" src="images/screenshots/pcn-extension-screenshot.png" /></a>
             <h2>PennCourseNotify Chrome Extension</h2>
             <p><strong>Chrome Extension Link:</strong> <a href="https://chrome.google.com/webstore/detail/penncoursenotify-extensio/fnfnjichadfpaneolghomamdbjbhnenn">link</a></p>
             <p><strong>Github Link:</strong> <a href="https://github.com/FabioFleitas/PCN-Chrome-Extension">github.com/FabioFleitas/PCN-Chrome-Extension</a></p>
             <p><strong>Description:</strong> Adding this extension to Chrome allows students at the University of Pennsylvania browse courses on PennInTouch and have PennCourseNotify "Notify Me!" buttons beside course listings. This is very convenient for students who are searching for courses and want to quickly be notified about an opening.</p>
           </div>
 
-          <div class="project">
-            <img class="project-photo img-thumbnail" src="images/screenshots/wesky-text-screenshot.png" />
+          <div class="item">
+            <img class="item-photo img-thumbnail" src="images/screenshots/wesky-text-screenshot.png" />
             <h2>Wesky Insurance Client SMS Notification System</h2>
             <p><strong>Github Link:</strong> <a href="https://github.com/FabioFleitas/wesky-text">github.com/FabioFleitas/wesky-text</a></p>
             <p><strong>Description:</strong> Developed a client sms notification system for Wesky Insurance, a local insurance agency located in New Mexico (my hometown). Using Python, Google App Engine, and Twilio, the company is able to upload CSV files and send sms messages to clients reminding them of due payments. I also developed a way for the company to send custom messages to clients. With a built in login system, only employees are able to access the system.</p>
             <p>Clients are very glad to be sent these sort of reminders and retention rates have significantly increased for the company because of this system.</p>
           </div>
 
-          <div class="project">
-            <a href="http://fellows.pennapps.com/"><img class="project-photo img-thumbnail" src="images/screenshots/fellows-screenshot.png" /></a>
+          <div class="item">
+            <a href="http://fellows.pennapps.com/"><img class="item-photo img-thumbnail" src="images/screenshots/fellows-screenshot.png" /></a>
+            <h2>PennApps Fellows Website</h2>
+            <p><strong>Website Link:</strong> <a href="http://fellows.pennapps.com/">fellows.pennapps.com</a></p>
+            <p><strong>Github Link:</strong> <a href="https://github.com/FabioFleitas/PennAppsFellowsPage">github.com/FabioFleitas/PennAppsFellowsPage</a></p>
+            <p><strong>Description:</strong> Developed the Fellows website, co-founded and currently one of the directors of the program. The PennApps Fellows program is a 10-week summer internship program that pairs talented students from across the nation with the best Philly-area tech startups, cultivating a community of students who are actively involved in the local startup scene.</p>
+          </div>
+        </div>
+        <!-- End Experience Tab -->
+
+        <!-- Projects Tab -->
+        <div class="tab-pane fade" id="projects">
+          <div class="item">
+            <a href="http://www.penncoursenotify.com/"><img class="item-photo img-thumbnail" src="images/screenshots/penncoursenotify-screenshot.png" /></a>
+            <h2>PennCourseNotify</h2>
+            <p><strong>Website Link:</strong> <a href="http://www.penncoursenotify.com/">www.penncoursenotify.com</a></p>
+            <p><strong>Description:</strong> PennCourseNotify allows students at the University of Pennsylvania to be notified whenever a course has an opening via email. I used Python as the backend on Google App Engine to develop the site. It was featured on the front page of the Daily Pennsylvanian Newspaper and Website: <a href="http://www.thedp.com/r/375feaf5">http://www.thedp.com/r/375feaf5</a></p>
+            <p><strong>Over 1,000 students are actively using the service.</strong></p>
+          </div>
+
+          <div class="item">
+            <a href="https://chrome.google.com/webstore/detail/penncoursenotify-extensio/fnfnjichadfpaneolghomamdbjbhnenn"><img class="item-photo img-thumbnail" src="images/screenshots/pcn-extension-screenshot.png" /></a>
+            <h2>PennCourseNotify Chrome Extension</h2>
+            <p><strong>Chrome Extension Link:</strong> <a href="https://chrome.google.com/webstore/detail/penncoursenotify-extensio/fnfnjichadfpaneolghomamdbjbhnenn">link</a></p>
+            <p><strong>Github Link:</strong> <a href="https://github.com/FabioFleitas/PCN-Chrome-Extension">github.com/FabioFleitas/PCN-Chrome-Extension</a></p>
+            <p><strong>Description:</strong> Adding this extension to Chrome allows students at the University of Pennsylvania browse courses on PennInTouch and have PennCourseNotify "Notify Me!" buttons beside course listings. This is very convenient for students who are searching for courses and want to quickly be notified about an opening.</p>
+          </div>
+
+          <div class="item">
+            <img class="item-photo img-thumbnail" src="images/screenshots/wesky-text-screenshot.png" />
+            <h2>Wesky Insurance Client SMS Notification System</h2>
+            <p><strong>Github Link:</strong> <a href="https://github.com/FabioFleitas/wesky-text">github.com/FabioFleitas/wesky-text</a></p>
+            <p><strong>Description:</strong> Developed a client sms notification system for Wesky Insurance, a local insurance agency located in New Mexico (my hometown). Using Python, Google App Engine, and Twilio, the company is able to upload CSV files and send sms messages to clients reminding them of due payments. I also developed a way for the company to send custom messages to clients. With a built in login system, only employees are able to access the system.</p>
+            <p>Clients are very glad to be sent these sort of reminders and retention rates have significantly increased for the company because of this system.</p>
+          </div>
+
+          <div class="item">
+            <a href="http://fellows.pennapps.com/"><img class="item-photo img-thumbnail" src="images/screenshots/fellows-screenshot.png" /></a>
             <h2>PennApps Fellows Website</h2>
             <p><strong>Website Link:</strong> <a href="http://fellows.pennapps.com/">fellows.pennapps.com</a></p>
             <p><strong>Github Link:</strong> <a href="https://github.com/FabioFleitas/PennAppsFellowsPage">github.com/FabioFleitas/PennAppsFellowsPage</a></p>
@@ -201,6 +252,17 @@
     ga('create', 'UA-46216497-3', 'fabiofleitas.com');
     ga('send', 'pageview');
 
+    </script>
+
+    <script type="text/javascript">
+      $(function(){
+          // var menuWidth=0;
+          // $('nav li').map(function(){
+          //     menuWidth = menuWidth + $(this).outerWidth(true);
+          // });
+          // // + 15px to fix, this maybe vary in your project
+          // $('nav').css('width', (menuWidth+15)); 
+      });
     </script>
 
   </body>

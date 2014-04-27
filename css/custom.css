@@ -20,24 +20,24 @@ h1, h2 {
   margin: auto 10px;
 }
 
-.project {
+.item {
   margin: 10px auto;
   min-height: 200px;
   border-bottom: 1px solid #dddddd;
 }
 
-/* Hide project-photo when on phones */
+/* Hide item-photo when on phones */
 @media (max-width: 768px) {
-  .project-photo {
+  .item-photo {
     display: none;
   }
 
-  .project h2 {
+  .item h2 {
     text-align: center;
   }
 }
 
-.project-photo {
+.item-photo {
   float: right;
   margin-left: 20px;
 }
