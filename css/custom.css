@@ -31,6 +31,10 @@ h1, h2 {
   .project-photo {
     display: none;
   }
+
+  .project h2 {
+    text-align: center;
+  }
 }
 
 .project-photo {
