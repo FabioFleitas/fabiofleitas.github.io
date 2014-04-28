@@ -8,7 +8,7 @@ body {
   margin: 20px auto;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,20 +20,24 @@ h1, h2 {
   margin: auto 10px;
 }
 
-.project {
+.item {
   margin: 10px auto;
   min-height: 200px;
   border-bottom: 1px solid #dddddd;
 }
 
-/* Hide project-photo when on phones */
+/* Hide item-photo when on phones */
 @media (max-width: 768px) {
-  .project-photo {
+  .item-photo {
     display: none;
+  }
+
+  .item h2 {
+    text-align: center;
   }
 }
 
-.project-photo {
+.item-photo {
   float: right;
   margin-left: 20px;
 }
