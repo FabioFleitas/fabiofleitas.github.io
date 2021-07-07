@@ -8,22 +8,16 @@ TITLE:Co-Founder & CTO
 item1.EMAIL;type=INTERNET;type=pref:cubanfabio@gmail.com
 item1.X-ABLabel:personal
 EMAIL;type=INTERNET;type=WORK:fabio@tesorio.com
-TEL;type=CELL;type=VOICE;type=pref:(813) 802-9654
+TEL;type=CELL;type=VOICE;type=pref:+1 (813) 802-9654
 item2.URL;type=pref:https://fabiofleitas.com
 item2.X-ABLabel:_$!<HomePage>!$_
 URL;type=WORK:https://www.tesorio.com
-item3.URL:https://wa.me/18138029654
-item3.X-ABLabel:WhatsApp
-item4.URL:https://keybase.io/fabiofleitas
-item4.X-ABLabel:Keybase
-item5.URL:https://github.com/FabioFleitas
-item5.X-ABLabel:GitHub
-item6.URL:https://venmo.com/code?user_id=1120473878364160806
-item6.X-ABLabel:Venmo
-X-SOCIALPROFILE;type=twitter;x-user=FabioFleitas:http://twitter.com/FabioFl
- eitas
-X-SOCIALPROFILE;type=linkedin;x-user=FabioFleitas:http://www.linkedin.com/i
- n/FabioFleitas
+X-SOCIALPROFILE;type=Twitter;x-user=FabioFleitas:http://twitter.com/FabioFleitas
+X-SOCIALPROFILE;type=LinkedIn;x-user=FabioFleitas:https://www.linkedin.com/in/FabioFleitas
+X-SOCIALPROFILE;type=WhatsApp;x-user=+1 (813) 802-9654:https://wa.me/18138029654
+X-SOCIALPROFILE;type=GitHub;x-user=FabioFleitas:https://github.com/FabioFleitas
+X-SOCIALPROFILE;type=Keybase;x-user=FabioFleitas:https://keybase.io/fabiofleitas
+X-SOCIALPROFILE;type=Venmo;x-user=FabioFleitas:https://venmo.com/code?user_id=1120473878364160806
 REV:2021-07-06T03:10:15Z
 X-IMAGETYPE:PHOTO
 X-IMAGEHASH:QS3dq/b/njefmgJh8pi6Ig==
