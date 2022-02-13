@@ -70,14 +70,14 @@ header {
   width: 100%;
   height: 60%;
   background-size: cover;
-  background: linear-gradient(120deg, #14204d 0, #3cc8f4 100%);
+  background: linear-gradient(150deg, #53f 15%, #05d5ff 70%);
 
   text-align: center;
   color: #fff;
 }
 
 header h1 {
-  text-shadow: 0 1px 6px #000;
+  text-shadow: 0 1px 20px #000;
 }
 
 header a {
@@ -86,7 +86,7 @@ header a {
 }
 
 header a:hover {
-  color: #57A3E8;
+  color: #333;
 }
 
 .container {
